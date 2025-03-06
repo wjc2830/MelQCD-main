@@ -1,0 +1,11 @@
+
+target: model.modules.feat_extractors.visual.motionformer.MotionFormer
+params:
+    ckpt_path: ./model/modules/feat_extractors/visual/motionformer_src/ssv2_divided_224_16x4.pyth
+    extract_features: true
+    factorize_space_time: true
+    agg_space_module: TransformerEncoderLayer
+    agg_time_module: AveragePooling
+    add_global_repr: false
+    agg_segments_module: AveragePooling
+    max_segments: 14
