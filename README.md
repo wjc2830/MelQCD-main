@@ -19,7 +19,9 @@
 * equal contribution, † project lead, ‡ corresponding author
 </div>
 
-[[paper]]()
+[[project page]](https://wjc2830.github.io/MelQCD/)
+[[paper]](https://arxiv.org/abs/2503.06984)
+[[demo]](https://www.modelscope.cn/studios/iic/MelQCD)
 
 ---
 
@@ -53,9 +55,13 @@
 
 3. Download Models 
     #### Dependent Models, trained on VGGSound
-* [SyncFormer]()
-* [V2X Signal Predictor]()
-* [MelQCD]()
+    ```
+    from modelscope import snapshot_download
+    model_dir = snapshot_download('iic/MelQCD')
+    ```
+* SyncFormer
+* V2X Signal Predictor
+* MelQCD
 
     Put checkpoints as follows:
 ```
