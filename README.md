@@ -128,4 +128,10 @@ If you have any questions, please feel free to contact: `jc2830.wang@connect.pol
 
 ## 📚 Citations
 ```
+@article{wang2025synchronized,
+      title={Synchronized Video-to-Audio Generation via Mel Quantization-Continuum Decomposition},
+      author={Wang, Juncheng and Xu, Chao and Yu, Cheng and Shang, Lei and Hu, Zhe and Wang, Shujun and Bo, Liefeng},
+      journal={arXiv preprint arXiv:2503.06984},
+      year={2025}
+    }
 ```
